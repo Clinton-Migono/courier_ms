@@ -1,0 +1,9 @@
+# -- Mark vendor or third-party scripts as vendored (won’t count toward main languages) --
+
+# Common JavaScript libraries
+assets/js/** linguist-vendored
+plugins/**    linguist-vendored
+vendor/**     linguist-vendored
+
+# -- Force PHP files to be recognized as PHP (not HTML) --
+*.php linguist-language=PHP
